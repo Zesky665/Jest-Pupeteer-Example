@@ -44,4 +44,3 @@ describe("Test test tool", () => {
         expect(image).toMatchImageSnapshot();
     }, timeout);
 });
-
