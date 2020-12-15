@@ -1,0 +1,21 @@
+{
+  "name": "photopea-test",
+  "version": "0.0.1",
+  "description": "QA case study for Photopea",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "jest-image-snapshot": "^4.2.0",
+    "jest-stare": "^2.2.0"
+  },
+  "scripts": {
+    "test": "jest --reporters default jest-stare --coverage=false --detectOpenHandles --runInBand || exit 0",
+    "test:watch": "jest --verbose --watchAll"
+  },
+  "author": "",
+  "license": "ISC"
+}
